@@ -1,0 +1,144 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }  
+body, button, input, select, textarea { color:#454545; }  
+body{font:18px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }  
+h2, h3 { font-size:20px; }  
+button, input, select, textarea, label { vertical-align:middle; outline:none; cursor:point}  
+img { vertical-align:middle; border:none; display:inline-block;}  
+ul{list-style: none}
+a { text-decoration:none; color:#454545; vertical-align:baseline; cursor:pointer; }  
+table { border-collapse:collapse; border-spacing:0;}  
+body { word-wrap:break-word; word-break:break-all; height:100%; background: #e8e8e8;} 
+
+
+
+	h1{
+		font-size: 40px;
+		font-weight: 500;
+		text-align: center;
+		width: 800px;
+		margin:30px auto 20px auto;
+	}
+
+	.form{
+			width: 800px;
+			margin:0 auto;
+			height: 600px;
+			background: #fff;
+		}
+
+	.ul{padding-top:20px; }
+
+	li{margin-bottom:20px;}
+
+	#password{margin-left:32px;}
+
+	#red{margin-left: 50px;}
+
+	#self{margin-left: 14px;}
+
+	input{background: #cdf;color: #fff;}
+
+	#name,#number{
+					height: 30px;
+					width: 200px;
+					border:0;
+					color:#444;
+					border-radius: 5px;
+					text-indent: 20px;
+				}
+
+	#name:hover,
+	#number:hover,
+	#one li:hover{background: #cfd;}
+
+	#man,#woman{
+				width: 20px;
+				height: 20px;
+				border-radius: 100%;
+	
+				}
+
+	.ln{padding-right: 20px;}
+
+	.city{
+			width: 150px;
+			height: 30px;
+			line-height: 30px;
+			display:inline-block;
+			background: #c9f;
+			color: #fff;
+			letter-spacing: 9px;
+			position: relative;
+			text-align: center;
+			border-radius: 5px;
+		}
+
+	
+
+	#one{
+		display:none;
+		position: absolute;
+		left: 0px;top:30px;
+		}
+
+	#one li{
+			width: 150px;
+			height: 30px;
+			line-height: 30px;
+			color:#fff;
+			margin:0;
+			display: block;
+			background: #f9d;
+			margin-top: 1px;
+			border-radius: 5px;
+			}
+	#one li:hover{
+		color: #222;
+	}
+	
+
+	#blue{
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+	}		
+
+	.spacing{padding-right: 20px;}
+
+	#file{
+		width: 672px;
+		border-radius: 5px;
+		color: #f00;
+	}
+
+
+	#box{
+		width: 670px;
+		height: 200px;
+		background: #cdf;
+		border:0;
+		border-radius: 5px;
+		text-indent: 10px;
+		color:#555;
+		}
+
+
+	#submit{
+			margin-left: 110px;
+			width: 90px;
+			height: 30px;
+			border:0;
+			line-height: 30px;
+			text-align: center;
+			border-radius: 5px;
+			background: #0f0;
+			}
+
+	#submit:hover{
+				background: #222;
+				color: #fff;
+			}
+
+
+

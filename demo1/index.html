@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/form.css" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".city").mouseover(function(){
+				$("#one").show();
+			});
+			$(".city").mouseout(function(){
+				$("#one").hide();
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>jQuery表单美化插件</h1>
+	<form action="" class="form">
+		<ul class="ul">
+			<li>
+				<label for="username" id="password">用户名：</label>
+				<input type="text" name="username" id="name"/>
+			</li>	
+			<li>
+				<label for="password" id="red">密码：</label>
+				<input type="password" name="password" id="number"/>
+			</li>
+			<li>
+				<span class="label" id="red">性别：</span>
+				<input type="radio" name="sex" id="man" value="男"/>
+				<label class="ln">男</label>
+				<input type="radio" name="sex" id="woman" value="女"/>
+				<label class="ln">女</label>
+			</li>
+			<li>
+				<label for="city" id="red">城市：</label>	
+				<div class="city">选择
+					<ul id="one">
+						<li>北京</li>
+						<li>上海</li>
+						<li>广东</li>
+						<li>湖北</li>
+						<li>大连</li>
+						<li>四川</li>
+						<li>天津</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<span class="label" id="red">爱好：</span>
+
+				<input type="checkbox" name="like" id="blue" value="上网"/>
+				<label for="internet" class="spacing">上网</label>
+
+				<input type="checkbox" name="like" id="blue" value="电影"/>
+				<label for="movie" class="spacing">电影</label>
+
+				<input type="checkbox" name="like" id="blue" value="音乐"/>
+				<label for="music" class="spacing">音乐</label>
+
+				<input type="checkbox" name="like" id="blue" value="运动"/>
+				<label for="sport" class="spacing">运动</label>
+
+				<input type="checkbox" name="like" id="blue" value="购物"/>
+				<label for="shopping" class="spacing">购物</label>
+			</li>
+			<li>
+				<label for="avatar" id="red">头像：</label>
+				<input type="file" name="avatar" id="file" />
+			</li>
+			<li>
+				<label for="evaluation" id="self">自我评价：</label>
+				<textarea name="evaluation" id="box"></textarea>
+			</li>
+			<li>
+				<input type="submit" value="提交" id="submit"/>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
